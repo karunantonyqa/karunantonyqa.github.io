@@ -3,26 +3,47 @@
 <html>
 
 	<head>
+	<link rel="stylesheet" href="styles.css">
 	
 		<title> Contact </title>
-		
 		<nav>
-		<center><b>
-			
-			<a href="file:///C:/Users/Admin/Documents/HTML/index.html"> Home </a>
-			<a href="file:///C:/Users/Admin/Documents/HTML/projects.html"> Projects </a>
-			<a href="file:///C:/Users/Admin/Documents/HTML/skills.html"> Skills </a>
-			<a href="file:///C:/Users/Admin/Documents/HTML/contact.html"> Contact </a>
-			
-		</b></center>
+		<b>
+		<div class="topnav">
+			<ul>
+				<a href="index.html"> Home </a>
+				<a href="projects.html"> Projects </a>
+				<a href="skills.html"> Skills </a>
+				<a href="contact.html"> Contact </a>
+			</ul>
+		</div>
+		</b>
 		</nav>		
-			<br/>
-
-
 	</head>
 
 	<body>
+	
+	<div id="ContactForm">
+	<form>
+		Name:
+		<input type="text" name="name"><br>
+		Email address:
+		<input type="text" name="email"><br>
+		Mobile number:
+		<input type="text" name="number"><br>
+		Position:
+		<select>
+			<option value="qaemployee">QA Employee</option>
+			<option value="developer">Developer</option>
+			<option value="recruiter">Recruiter</option>
+		</select><br>
+		Message:
+		<input type="text" name="message"><br>
+		<input type="submit" value="Submit">
 
+
+	
+	</form>
+	</div>
 
 	</body>
 
